@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="HRM Auto Suite">
+  <test name=" Login Test">
+    <classes>
+      <class name="testcases.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Forgot Password Test">
+    <classes>
+      <class name="testcases.ForgotPasswordTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Feature Test">
+    <classes>
+      <class name="testcases.FindAdminUser"/>
+       <class name="testcases.MyInfoTest"/>
+        
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->

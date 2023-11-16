@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [HRM Auto Suite]">
+  <test thread-count="5" name="Feature Test(failed)">
+    <classes>
+      <class name="testcases.MyInfoTest">
+        <methods>
+          <include name="TC006_VerifyTheMenuItemTextOnMyInfo"/>
+          <include name="TC005_VerifyTheMenuItemCountOnMyInfo"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testcases.MyInfoTest -->
+    </classes>
+  </test> <!-- Feature Test(failed) -->
+</suite> <!-- Failed suite [HRM Auto Suite] -->
